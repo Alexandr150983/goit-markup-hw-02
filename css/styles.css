@@ -32,12 +32,13 @@
 */
 /* Лого */
 .logo {
-    color: var(--accent-color);
+    color: var(--logo-text-color);
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 .header-logo {
     color: var(--title-text-color);
@@ -53,9 +54,6 @@
     color: var(--primary-text-color);
     font-style: normal;
     letter-spacing: 0.02em;
-}
-.header-link.current {
-    color: var(--accent-bg-color);
 }
 .header-link:hover,
 .header-link:focus,
@@ -74,7 +72,7 @@
     background-color: var(--secondary-bg-color);
 }
 .hero-title {
-    color: var(--primary-bg-color);
+    color: var(--white-text-color);
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
