@@ -50,9 +50,11 @@
     letter-spacing: 0.02em;
 }
 /* Контакти */
+.contacts {
+    font-style: normal;
+}
 .contacts-link {
     color: var(--primary-text-color);
-    font-style: normal;
     letter-spacing: 0.02em;
 }
 .header-link:hover,
